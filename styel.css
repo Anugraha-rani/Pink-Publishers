@@ -34,6 +34,7 @@ html{
     justify-content: space-evenly;
     align-items: center;
     background: linear-gradient(to bottom right,rgb(138, 138, 212),rgb(219, 219, 134));
+    flex-wrap: wrap;
 }
 #image4{
     height: 300px;
