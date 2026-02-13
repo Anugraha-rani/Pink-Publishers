@@ -6,22 +6,26 @@
     <title>Pink Publishers</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styel.css">
 </head>
 <body>
-    <div class=" min-h-screen md:px-15 py-10 px-5  ">
-        <nav class="flex items-center   ">
-            <a class="border border-blue-900 border-2  " href=""> <span class="md:text-2xl text-xl text-white bg-blue-900 px-2  ">PINK . </span> <span class="md:text-2xl text-blue-900 px-2 "> PUBLISHERS</span></a>
+    <div class=" min-h-screen  py-10   ">
+        <nav class="flex items-center px-10  ">
+            <a class="border border-blue-900 border-2  " href=""> <span class="md:text-3xl text-xl text-white bg-blue-900 px-2   ">PINK . </span> <span class="md:text-xl text-blue-900 px-2 "> PUBLISHERS &</span><br><span class="text-xl text-blue-900 ms-28">  DISTRIBUTORS</span></a>
             <ul class="md:flex-1 text-center">
-                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="">Bookstore</a></li>
-                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="">Events</a></li>
                 <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="">About</a></li>
-                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="">Contacts</a></li>
+                <li class="md:inline-block list-none" ><a  class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#book">Bookstore</a></li>
+                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#event">Events</a></li>
+                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#author">Featured Authors</a></li>
+                
+                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#deal">Today's Deal</a></li>
                 
             </ul>
             <a class="md:mx-5 md:text-xl text-blue-900 hover:text-yellow-400 " href=""><i class="fa-solid fa-circle-user"></i>Login </a>
                 <a class="md:mx-5 md:text-xl text-blue-900 hover:text-yellow-400 " href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
         </nav>
-        <div class="mt-10 md:grid grid-cols-2 bg-yellow-400 px-25 py-20 items-center" >
+        <section class="px-10">
+        <div class="mt-10 md:grid grid-cols-2 bg-yellow-400 px-25 py-10 items-center " >
             <div>
                 <!-- content -->
                  <p class="md:text-8xl text-blue-900 leading-normal font-bold ">A SOFA,<br>A GOOD<br>BOOK<br>AND YOU.</p>
@@ -29,68 +33,455 @@
             <img class="md:w-550 md:h-125" src="./images/image.png" alt="Image">
             
         </div>
-        <p class="mt-20 text-center text-blue-900 leading-15 text-xl font-bold">PINK. PUBLISHERS <br><span class="text-5xl font-bold">BESTSELLERS</span></p>
-        <div class="bg-blue-900">
-        <div class="grid md:grid-cols-4  mt-10  px-20 py-30   ">
-            <div class="w-60 h-90  ">
-               <img class=" w-60 h-60  " src="https://m.media-amazon.com/images/I/51DHKEmpyHL._SY445_SX342_.jpg" alt="Image">
-               <p class="mt-10 text-yellow-400 ">Onyx Storm<br>Rebecca Yarros<br>$20</p>
-            </div>
-            <div class="w-60 h-90">
-               <img class="w-60 h-60" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781668089330/never-flinch-9781668089330_hr.jpg" alt="Image">
-               <p class="mt-10 text-yellow-400">Never Flinch<br>Stephen King<br>$50</p>
-            </div>
-            <div class="w-60 h-90">
-               <img class="w-60 h-60" src="https://m.media-amazon.com/images/I/91pRaRU3+YL._SL1500_.jpg" alt="Image">
-               <p class="mt-10 text-yellow-400">Broken Country<br>Clare Leslie Hall<br>$20</p>
-            </div>
-            <div class="w-60 h-90">
-               <img class="w-60 h-60" src="https://res.cloudinary.com/itimages/image/upload/c_limit,w_2000,f_auto,q_auto/prd/splash_cover_art/p2od28ixfvccp5nscrui" alt="Image">
-               <p class="mt-10 text-yellow-400">Dream Count<br>Chimamanda Ngozi Adichi <br>$30</p>
-            </div>
-            </div>
-            <p class="mt-10 text-center text-yellow-400 leading-15 text-xl font-bold">This Month's <br><span class="md:text-5xl font-bold">RECOMMENDED BOOKS</span></p>
-            <div class="grid md:grid-cols-4 mt-20 py-30 px-20">
-                 <div class="w-60 h-90 ">
-               <img class="w-60 h-60" src="https://hips.hearstapps.com/hmg-prod/images/shon-faye-676d841cccd6d.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Image">
-               <p class="mt-10 text-yellow-400">LOve in Exile<br>Shon Faye<br>$30</p>
-            </div>
-            <div class="w-60 h-90">
-               <img class="w-60 h-60" src="http://www.harryhartog.com.au/cdn/shop/files/9781035416400.jpg?v=1742929191" alt="Image">
-               <p class="mt-10 text-yellow-400">Elphie<br>A wicked Childhood<br>$40</p>
-            </div>
-            <div class="w-60 h-90">
-               <img class="w-60 h-60" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1721437195i/213618132.jpg" alt="Image">
-               <p class="mt-10 text-yellow-400">Good Dirt<br>Charmaine Wilkerson<br>$20</p>
-            </div>
-            <div class="w-60 h-90">
-               <img class="w-60 h-60" src="https://cdn.penguin.co.uk/dam-assets/books/9780241721049/9780241721049-jacket-large.jpg" alt="Image">
-                <p class="mt-10 text-yellow-400">House<br>Nova Scotia<br>$20</p>
+        </section>
+        <section id="book" class="px-10">
+            
+
+            
+        <p class="mt-20 text-center text-blue-900 leading-15 text-xl font-bold">PINK.  PUBLISHERS AND DISTRIBUTORS <br><span class="text-5xl font-bold">A HOME FOR EVERY READER</span></p>
+        <div class="flex mt-20" style="align-items: center; justify-content: center;gap: 10px;">
+                <div class="flex " id="round">
+                <a class="text-blue-900 font-bold" href="">Bestsellers</a>   
+                </div>
+                <div class="flex " id="round">
+                <a class="text-blue-900 font-bold" href="">Children's Book</a>   
+                </div>
+                <div class="flex " id="round">
+                <a class="text-blue-900 font-bold" href="">Oxford VSI</a>   
+                </div>
+                <div class="flex " id="round">
+                <a class="text-blue-900 font-bold" href="">Comic Books</a>   
+                </div>
+                <div class="flex " id="round">
+                <a class="text-blue-900 font-bold" href="">World Classics</a>   
+                </div>
+                <div class="flex " id="round">
+                <a class="text-blue-900 font-bold" href="">Test Prep</a>   
+                </div>
+                <div class="flex " id="round">
+                <a class="text-blue-900 font-bold" href="">Fiction</a>   
+                </div>
+                <div class="flex " id="round">
+                <a class="text-blue-900 font-bold" href="">Non-Fiction</a>   
+                </div>
+                
 
             </div>
+        <div class="bg-blue-900">
+        <div class="grid md:grid-cols-6 mt-60 px-20  gap-10  "  >
+            <div class="w-40 h-100    " style="margin-top: -100px;">
+               <img class=" w-30 h-50 place-items-center  " src="https://m.media-amazon.com/images/I/51DHKEmpyHL._SY445_SX342_.jpg" alt="Onyx storm">
+               <p class="md:mt-10 mt-5 text-yellow-400 ">Onyx Storm<br>Rebecca Yarros<br>&#8377;3000</p>
+               <div class="md:mt-5 mt-2  ">
+               <a class="text-yellow-400 border px-4 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
             </div>
-        <p class="md:text-5xl font-bold text-yellow-400 text-center mt-10 leading-15">THERE'S NO <br>SUCH THING AS TOO <br>MANY BOOKS</p>
+            <div class="w-40 h-100 " style="margin-top:-100px ;">
+               <img class="w-30 h-50" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781668089330/never-flinch-9781668089330_hr.jpg" alt="Never flinch">
+               <p class="md:mt-10 mt-5 text-yellow-400">Never Flinch<br>Stephen King<br>&#8377;2550</p>
+               <div class="md:mt-5 mt-2">
+               <a class="text-yellow-400 border px-4 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+           
+            <div class="w-40 h-100   " style="margin-top: -100px;">
+               <img class="w-30 h-50" src="https://m.media-amazon.com/images/I/91pRaRU3+YL._SL1500_.jpg" alt="broken country">
+               <p class="md:mt-10 mt-5 text-yellow-400">Broken Country<br>Clare Leslie Hall<br>&#8377;2660</p>
+               <div class="md:mt-5 mt-2">
+               <a class="text-yellow-400 border px-4 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            <div class="w-40 h-100 " style="margin-top: -100px;">
+               <img class="w-30 h-50" src="https://res.cloudinary.com/itimages/image/upload/c_limit,w_2000,f_auto,q_auto/prd/splash_cover_art/p2od28ixfvccp5nscrui" alt="dream count">
+            <p class="md:mt-10 mt-5 text-yellow-400">Dream Count<br>Chimamanda Ngozi<br>&#8377;2660</p>
+
+               <div class="md:mt-5 mt-2">
+               <a class="text-yellow-400 border px-4 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            <div class="w-40 h-100 " style="margin-top: -100px;">
+               <img class="w-30 h-50" src="https://cdn2.penguin.com.au/covers/400/9781464242113.jpg" alt="the crash">
+            <p class="md:mt-10 mt-5 text-yellow-400">The Crash<br>Frieda McFadden<br>&#8377;2200</p>
+
+               <div class="md:mt-5 mt-2">
+               <a class="text-yellow-400 border px-4 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            <div class="w-40 h-100 " style="margin-top: -100px;">
+               <img class="w-30 h-50" src="https://www.greatescapebooks.com.au/wp-content/uploads/2025/11/714zI6t8O6L._SL1500_.jpg" alt="Flesh">
+               <p class="md:mt-10 mt-5 text-yellow-400">Flesh<br>David Szalay  <br>&#8377;4000</p>
+               <div class="md:mt-5 mt-2">
+               <a class="text-yellow-400 border px-4 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            </div>
+            <div class="mt-10 text-center">
+                <a class="text-yellow-400 border px-4 py-2 " href="">View more</a>
+            </div>
+            <p class="mt-15 text-center text-yellow-400 leading-15 text-xl font-bold">This Month's <br><span class="md:text-5xl font-bold">RECOMMENDED BOOKS</span></p>
+            <div class="grid md:grid-cols-6 mt-10  px-20 gap-10">
+                 <div class="w-40 h-100 ">
+               <img class="w-30 h-50" src="https://hips.hearstapps.com/hmg-prod/images/shon-faye-676d841cccd6d.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="Love in exile">
+               <p class="mt-10 text-yellow-400">Love in Exile<br>Shon Faye<br>&#8377;3000</p>
+               <div class="mt-5">
+               <a class="text-yellow-400 border px-2 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            <div class="w-40 h-100">
+               <img class="w-30 h-50" src="http://www.harryhartog.com.au/cdn/shop/files/9781035416400.jpg?v=1742929191" alt="Elphie">
+               <p class="mt-10 text-yellow-400">Elphie<br>A wicked Childhood<br>&#8377;2800</p>
+               <div class="mt-5">
+               <a class="text-yellow-400 border px-2 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            <div class="w-40 h-100 ">
+               <img class="w-30 h-50" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1721437195i/213618132.jpg" alt="good dirt">
+               <p class="mt-10 text-yellow-400">Good Dirt<br>Charmaine Wilkerson<br>&#8377;3200</p>
+               <div class="mt-5">
+               <a class="text-yellow-400 border px-2 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            <div class="w-40 h-100">
+               <img class="w-30 h-50" src="https://cdn.penguin.co.uk/dam-assets/books/9780241721049/9780241721049-jacket-large.jpg" alt="House">
+                <p class="mt-10 text-yellow-400">House<br>Nova Scotia<br>&#8377;3000</p>
+                 <div class="mt-5">
+               <a class="text-yellow-400 border px-2 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            <div class="w-40 h-100">
+               <img class="w-30 h-50" src="https://cdn2.penguin.com.au/covers/original/9781529930634.jpg" alt="Disappoint me">
+                <p class="mt-10 text-yellow-400">Disappoint Me<br>Nicola Dinan<br>&#8377;1800</p>
+                 <div class="mt-5">
+               <a class="text-yellow-400 border px-2 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            <div class="w-40 h-100">
+               <img class="w-30 h-50" src="https://tse1.mm.bing.net/th/id/OIP.3_9bYVE3qfewEZvOGZBnuwHaLQ?pid=Api&P=0&h=180" alt="Image">
+                <p class="mt-10 text-yellow-400">Source Code <br>Bill Gates<br>&#8377;1600</p>
+                 <div class="mt-5">
+               <a class="text-yellow-400 border px-2 py-1  hover:border-yellow-400 " href="">Buy Now</a>
+               </div>
+            </div>
+            </div>
+            <div class="mt-10 text-center">
+                <a class="text-yellow-400 border px-4 py-2 " href="">View more</a>
+            </div>
+        <p class="md:text-5xl font-bold text-yellow-400 text-center mt-20 leading-15">THERE'S NO <br>SUCH THING AS TOO <br>MANY BOOKS</p>
         <div class="justify-center flex flex-col items-center  ">
-        <button class=" py-30 text-yellow-400 hover:text-white " > READ MORE</button></div>
+        <button class=" py-10 text-yellow-400 hover:text-white " > READ MORE</button></div>
         </div>
-        <p class="mt-20 text-center text-blue-900 leading-15 text-xl font-bold">Coming Up <br><span class="md:text-5xl font-bold">BOOK LAUNCH</span></p>
+      
+         
+      
+       
+
+    </section>
+    <div style=" display: flex; flex-wrap: wrap; gap: 5px; " class="mt-10 ">
+         <div style="width: 440px;   background: linear-gradient(to bottom right,rgb(188, 188, 229),rgb(247, 247, 152)); " >
+           <h5 class="text-center text-2xl text-blue-900 py-1">Upto 50% OFF</h5>
+           <p class="text-center text-blue-900 py-2">Books everyone's buzzing about</p>
+           <div style="display: flex; justify-content: space-evenly;" class=" py-5">
+            <img style="width: 100px;" src="https://hips.hearstapps.com/hmg-prod/images/just-for-the-summer-r4-64daa25b32ccc.jpg?resize=980:*" alt="just for the summer">
+            <img style="width: 100px;" src="https://www.hachettebookgroup.com/wp-content/uploads/2024/01/9780316553810.jpg" alt="Lake of souls">
+            <img style="width: 100px;" src="https://www.hachettebookgroup.com/wp-content/uploads/2024/07/9780316575805_638919.jpg" alt="revenge">
+            <img style="width: 100px;" src="http://www.32books.com/wp-content/uploads/2018/06/Pachinko-Min-Jin-Lee-651x1024.jpg" alt="Pachinko">
+
+           </div>
+
+         </div>
+        <div style="width: 440px;   background: linear-gradient(to bottom right,rgb(188, 188, 229),rgb(247, 247, 152)); " >
+           <h5 class="text-center text-2xl text-blue-900 py-1">Upto 50% OFF</h5>
+           <p class="text-center text-blue-900 py-2">Books That Bring The World To You</p>
+           <div style="display: flex; justify-content: space-evenly;" class=" py-5">
+            <img style="width: 100px;" src="https://m.media-amazon.com/images/I/81U9dD7xb0L._SL1500_.jpg" alt="the land in winter">
+            <img style="width: 100px;" src="https://m.media-amazon.com/images/I/81c4zw0LiSL._SL1500_.jpg" alt="the tears of things">
+            <img style="width: 100px;" src="https://m.media-amazon.com/images/I/712VyL+QrwL._SL1500_.jpg" alt="book">
+            <img style="width: 100px;" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1734043428i/215100951.jpg" alt="book">
+
+           </div>
+
+         </div>
+        <div style="width: 440px;   background: linear-gradient(to bottom right,rgb(188, 188, 229),rgb(247, 247, 152)); " >
+           <h5 class="text-center text-2xl text-blue-900 py-1">Upto 50% OFF</h5>
+           <p class="text-center text-blue-900 py-2">Fill your shelf with books that nourish the soul</p>
+           <div style="display: flex; justify-content: space-evenly;" class=" py-5">
+            <img style="width: 100px;" src="https://rekhtabooks.com/cdn/shop/files/UAQNLtuL9p.jpg?v=1735553939&width=1946" alt="image">
+            <img style="width: 100px;" src="https://harpercollins.co.in/book-cover/400/9789354895401.jpg" alt="image">
+            <img style="width: 100px;" src="https://harpercollins.co.in/book-cover/PowerPoint_jpg/9789356294493.jpg" alt="image">
+            <img style="width: 100px;" src="https://m.media-amazon.com/images/I/61Z7lAMygOL._SL1000_.jpg" alt="Image">
+
+           </div>
+
+         </div>
+        
+         
+      </div>
+
+      <h4 class="text-2xl px-10 mt-15 text-blue-900 font-bold  " >Shop by publishers</h4>
+      <div class="flex px-10 mt-10" style="align-items: center; justify-content: space-evenly; flex-wrap: wrap;">
+         <div class="flex" id="image" >
+      <a href=""><img class="w-100" src="https://tse4.mm.bing.net/th/id/OIP.uQ3utpJt8ea4niJAN9cHCgHaC-?pid=Api&P=0&h=180" alt=""></a>    
+          </div>
+          <div class="flex" id="image" >
+      <a href=""><img class="w-100" src="https://theme.zdassets.com/theme_assets/845374/20cc7631524f4957d57b1ebb29585e47b540692a.png" alt=""></a>    
+          </div>
+          <div class="flex" id="image" >
+      <a href=""><img class="w-100" style="width: 150px; height: 88px;" src="https://www.stm-publishing.com/wp-content/uploads/2023/11/Sage.jpg" alt=""></a>    
+          </div>
+          <div class="flex" id="image" >
+      <a href=""><img class="w-100" src="https://global.penguinrandomhouse.com/wp-content/uploads/2024/07/PRH-GlobalCorporate-Logo-RGB.png" alt=""></a>    
+          
+          </div>
+          <div class="flex" id="image" >
+      <a href=""><img class="w-100" src="https://tse2.mm.bing.net/th/id/OIP.cdiAC2kKTMauroppvDoRVAHaB2?pid=Api&P=0&h=180" alt=""></a>    
+          
+          </div>
+          <div class="flex" id="image" >
+      <a href=""><img class="w-100" src="https://media.springernature.com/full/springer-cms/rest/v1/content/12215958/data/v3" alt=""></a>   
+          
+          </div>
+          <div class="flex" id="image" >
+      <a href=""><img class="w-100" style="width: 150px; height: 88px;" src="https://tse2.mm.bing.net/th/id/OIP.XTUgEnYYwWOs8EcKk0EFvAHaE4?pid=Api&P=0&h=180" alt=""></a>    
+          
+          </div>
+          <div class="flex" id="image" >
+      <a href=""><img class="w-100" style="width: 150px; height: 88px;" src="https://tse1.mm.bing.net/th/id/OIP.5sE8otXdeKim-mqBLXmeiAHaCK?pid=Api&P=0&h=180" alt=""></a>    
+          
+          </div>
+          </div>
+          <div class="flex px-10 mt-10" style="align-items: center; justify-content: space-evenly;">
+         <div class="flex" id="image" >
+         <a href=""><img class="w-100" src="https://www.books2door.com/cdn/shop/collections/hachette_logo_7bdba6b4-7e6c-4c0f-b1fd-6f793ad1041c_2100x630.png?v=1647019340" alt=""></a>
+          </div>
+          <div class="flex" id="image" >
+        <a href=""><img class="w-100" src="https://tse3.mm.bing.net/th/id/OIP.qHyLFWhS0PZ67y4Fd4O5PwHaBN?pid=Api&P=0&h=180" alt=""></a>  
+          </div>
+          <div class="flex" id="image" >
+        <a href=""><img class="w-100" style="width: 150px; height: 88px;" src="https://tse2.mm.bing.net/th/id/OIP.bMapKM5BplpgeeohLi89ggHaEH?pid=Api&P=0&h=180" alt=""></a>  
+          </div>
+          <div class="flex" id="image" >
+      <a href=""><img class="w-100"  src="https://about.mouchette.org/wp-content/uploads/2012/02/ThamesHudson.png" alt=""></a>    
+          
+          </div>
+          <div class="flex" id="image" >
+          <img class="w-100" src="https://tse4.mm.bing.net/th/id/OIP.58GdSe2jrnZQ4CEvN8cNjwHaEP?pid=Api&P=0&h=180" alt="">
+          
+          </div>
+          <div class="flex" id="image" >
+       <a href=""><img class="w-100" src="http://peacockbooks.com/cdn/shop/files/Peacock_Logo_for_web.png?height=628&pad_color=ffffff&v=1733897128&width=1200" alt=""></a>   
+          
+          </div>
+          <div class="flex" id="image" >
+      <a href=""><img class="w-100" style="width: 150px; height: 88px;" src="https://esrpc.com/storage/media-center/images/ac-image-zh1527320940HI.gif" alt=""></a>    
+          
+          </div>
+          <div class="flex" id="image" >
+       <a href=""><img class="w-100" style="width: 150px; height: 88px;" src="https://tse1.mm.bing.net/th/id/OIP.y8-3bw0VzLlqALWO7K9_GgHaDW?pid=Api&P=0&h=180" alt=""></a>   
+          
+          </div>
+          </div>
+<section>
+          <div class="flex justify-between px-10 mt-15">
+<h4 class="text-blue-900  text-2xl font-bold">World Classics</h4>
+<a class=" text-xl text-blue-900 font-bold" href="" target="_blank">View All</a>
+</div>
+<div class="px-10 flex mt-10" style="justify-content: space-evenly; ">
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://almabooks.com/wp-content/uploads/2018/02/The-Waves-2-768x1188.jpg" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">The Waves <br>Virginia Woolf</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;140 <span class="text-green-600 font-medium ms-15">(-30%)</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://m.media-amazon.com/images/I/51UwHHRcgtL.jpg" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">Pride & Prejudice <br>Jane Austin</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;207 <span class="text-green-600 font-medium ms-15">(-30%)</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://tse4.mm.bing.net/th/id/OIP.VTBq8_0SsKhX6IP3AD8DgwHaJ4?pid=Api&P=0&h=180" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">Gitanjali <br>Rabindranath Tagore</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;207 <span class="text-green-600 font-medium ms-15">(-30%)</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://i.pinimg.com/originals/1a/e2/73/1ae27393ab604f72c356ed0cf1d66958.jpg" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">The Wind in Willows <br>Kenneth Grahame</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;105 <span class="text-green-600 font-medium ms-15">(-30%)</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://m.media-amazon.com/images/I/81AgvxYxQ0L._SL1500_.jpg" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">The Vicar Of Wakefield <br>Oliver Goldsmith</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;105 <span class="text-green-600 font-medium ms-15">(-30%)</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781627939911/the-scarlet-letter-9781627939911_hr.jpg" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">The Scarlet Letter <br>Nathaniel Hawthorne</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;160 <span class="text-green-600 font-medium ms-15">(-30%)</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    
+
+
+
+</div>
+</section>
+
+<h4 class="text-blue-900  text-2xl font-bold mt-15 px-10">The Best of Indian Publishing</h4>
+
+ <div style=" display: flex; flex-wrap: wrap; gap: 5px; " class="mt-10 ">
+         <div style="width: 440px;   background: linear-gradient(to bottom right,rgb(188, 188, 229),rgb(247, 247, 152)); " >
+            <div class="flex py-4" style="justify-content: center; align-items: center;">
+                <img id="image3" src="./images/rupa.png" alt="">
+               
+            </div>
+             <p class="text-blue-900 font-bold text-center">The House of Bestsellers</p>
+           <div style="display: flex; justify-content: space-evenly;" class=" py-5">
+            <img style="width: 100px;" src="https://m.media-amazon.com/images/I/81wk5Qd24LL.jpg" alt="just for the summer">
+            <img style="width: 100px;" src="https://harivubooks.com/cdn/shop/products/rukmini_1_1.jpg?v=1669453205&width=713" alt="Lake of souls">
+            <img style="width: 100px;" src="https://imgv2-2-f.scribdassets.com/img/document/555765460/original/1e257cb1de/1684460172?v=1" alt="revenge">
+            <img style="width: 100px;" src="https://store.goodreads.lk/wp-content/uploads/2024/11/9788129148841.jpg" alt="Pachinko">
+
+           </div>
+
+         </div>
+          <div style="width: 440px;   background: linear-gradient(to bottom right,rgb(188, 188, 229),rgb(247, 247, 152)); " >
+            <div class="flex py-4" style="justify-content: center; align-items: center;">
+                <img id="image3"  src="https://i.vimeocdn.com/portrait/41371656_640x640" alt="">
+               
+            </div>
+           <p class="text-center text-blue-900 font-bold">Shaping Minds,Enriching Knowledge</p>
+           <div style="display: flex; justify-content: space-evenly;" class=" py-5">
+            <img style="width: 100px;" src="https://d1yvcml1qpeqwy.cloudfront.net/stores/6748/NilyZQCDPQVjavXL.webp" alt="just for the summer">
+            <img style="width: 100px;" src="https://orientblackswan.com/covers/bigcovers/9789390122585.jpg" alt="Lake of souls">
+            <img style="width: 100px;" src="https://pictures.abebooks.com/isbn/9788125044642-uk.jpg" alt="revenge">
+            
+            <img style="width: 100px;" src="https://orientblackswan.com/covers/bigcovers/9788125059837.jpg" alt="Pachinko">
+
+           </div>
+
+         </div>
+          <div style="width: 440px;   background: linear-gradient(to bottom right,rgb(188, 188, 229),rgb(247, 247, 152)); " >
+            <div class="flex mt-5" style="justify-content: center;">
+            <img style="width: 300px; height: 40px;" src="https://www.jaicobooks.com/wp-content/uploads/2023/06/Jaico-Logo_Red-v2.png" alt="">
+            </div>
+           <p class="text-center text-blue-900  mt-6 font-bold">Ideas That Inspire,Books That Endure</p>
+           <div style="display: flex; justify-content: space-evenly;" class=" py-5">
+            <img style="width: 100px;" src="https://booksandyou.in/cdn/shop/files/TheRichestManinBabylon_1.webp?v=1745325922&width=1445" alt="just for the summer">
+            <img style="width: 100px;" src="https://m.media-amazon.com/images/I/61JAaRsgKjL._SL1281_.jpg" alt="Lake of souls">
+            <img style="width: 100px;" src="https://www.bbassets.com/media/uploads/p/l/40342241_1-jaico-publishing-house-who-will-cry-when-you-die.jpg" alt="revenge">
+            <img style="width: 100px;" src="https://www.jaicobooks.com/wp-content/uploads/2022/12/j-2199-awaken-the-leader-in-you-mitesh-khatri-and-indu-khatri--768x1185.jpg" alt="Pachinko">
+
+           </div>
+
+         </div>
+         </div>
+
+<section id="author">
+<h4 class="text-blue-900  text-2xl font-bold mt-15 px-10">Featured Authors</h4>
+<div class="flex mx-30 py-10 mt-10 " id="feature">
+    <div style="height: 340px; width: 200px;" >
+        <img id="image4" src="https://tse2.mm.bing.net/th/id/OIP._Wig3ItDLplOK3jzYdTfMAHaEK?pid=Api&P=0&h=180" alt="">
+        <p class="mt-5 text-blue-900">Stephen King</p>
+    </div>
+    <div style="height: 340px; width: 200px;" >
+        <img id="image4" src="https://people.com/thmb/ACEIriTVZn1Y-BmVooqmj3Rh9nI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(776x397:778x399)/gillian-flynn-052625-1-b344373917d44466a451e2db48928420.jpg" alt="">
+        <p class="mt-5 text-blue-900">Gillian Flynn</p>
+    </div>
+    <div style="height: 340px; width: 200px;" >
+        <img id="image4" src="https://erichsegal.com/wp-content/uploads/2020/01/erich3-1024x624.png" alt="">
+        <p class="mt-5 text-blue-900">Erich Segal</p>
+    </div>
+     <div style="height: 340px; width: 200px;" >
+        <img id="image4" src="https://parade.com/.image/t_share/MTkwNTc5MzEzMzIyMzA1NDA0/gayle-forman-author-photo.jpg" alt="">
+        <p class="mt-5 text-blue-900">Gayle Forman</p>
+    </div>
+    <div style="height: 340px; width: 200px;" >
+        <img id="image4" src="https://tse3.mm.bing.net/th/id/OIP.2BUThf0CyDwDYbLDaQ8RfAAAAA?pid=Api&P=0&h=180" alt="">
+        <p class="mt-5 text-blue-900">Stephen Coonts</p>
+    </div>
+    
+
+
+</div>
+
+</section>
+
+<section id="deal">
+  <div class="flex justify-between px-10 mt-15">
+<h4 class="text-blue-900  text-2xl font-bold">Today's Deal</h4>
+<a class=" text-xl text-blue-900 font-bold" href="" target="_blank">View All</a>
+</div>
+<div class="px-10 flex mt-10" style="justify-content: space-evenly; ">
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://images.routledge.com/common/jackets/crclarge/978042934/9780429347443.jpg" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">Capturing the Universe <br>Chris Woodhouse</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;3900 <span class="ms-18 " style="text-decoration: line-through; color: black;">&#8377;5500</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://media.assettype.com/outlooktraveller/import/outlooktraveller/public/uploads/articles/travelnews/files/2016/02/050416131654-Bookcover_Walking-the-Himal.jpg?w=1200&ar=40:21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">Walking the Himalayas <br>Levison Wood</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;1150 <span class="ms-18 " style="text-decoration: line-through; color: black;">&#8377;1800</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://agathachristie.imgix.net/hcuk-paperback/254406-9_BLACK-COFFEE_PB_RI.jpg?auto=compress,format&fit=clip&q=65&w=400" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">Black Coffee(Poirot) <br>Levison Wood</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;272 <span class="ms-20 " style="text-decoration: line-through; color: black;">&#8377;399</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://pictures.abebooks.com/inventory/17392136321.jpg" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">The English Patient <br>Michael Ondaatje</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;395<span class="ms-20 " style="text-decoration: line-through; color: black;">&#8377;599</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://freight.cargo.site/t/original/i/eedf0fc90fab64abf78e4805f18285f8788b6fb7288f40a126bf843a33f3004c/The-Art-of-1.jpg" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">The Art of Loving <br>Erich Fromm</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;180<span class="ms-20 " style="text-decoration: line-through; color: black;">&#8377;225</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+    <div class="  justify-center align-center shadow-2xl " id="image2">
+        <img style="width: 100%; height: 247px;" class="px-2 py-1" src="https://cdn2.penguin.com.au/covers/original/9781784874001.jpg" alt="">
+        <p class="text-blue-900 font-medium mt-2 px-2">Letters to Milena <br>Vintage Kafka</p>
+        <p class="mt-2 text-blue-900 font-medium px-2">&#8377;425<span class="ms-20 " style="text-decoration: line-through; color: black;">&#8377;599</span></p>
+        <a class="text-blue-900 py-2 font-bold mt-3 px-2 " href="">Buy Now</a>
+    </div>
+
+
+
+
+
+</div>
+
+</section>
+      
+       
+
+    <section id="event">
+        <p class="mt-40 text-center text-blue-900 leading-15 text-xl font-bold">Coming Up <br><span class="md:text-5xl font-bold">BOOK LAUNCH</span></p>
         
             <div class="grid md:grid-cols-2 mt-20 align-center px-20 gap-10">
                 <div class="justify-center text-center">
-                    <p class="leading-15 text-blue-900"> <span>Introducing Think and Grow Rich</span><br>By Napoleon Hill<br> <span style="text-decoration: underline;">When</span><br>Jan 30 2026,7PM<br> <span style="text-decoration: underline;">Where</span><br>Terry Francois Street Bangalore</p>
+                    <p class="leading-15 text-blue-900"> <span>Introducing BE YOURSELF</span><br>By Amelia Johnson<br> <span style="text-decoration: underline;">When</span><br>April 30 2026,7PM<br> <span style="text-decoration: underline;">Where</span><br>Terry Francois Street Bangalore</p>
                     <a class="text-blue-900 hover:text-yellow-400 " style="width: 50px; height: 20px; border: solid 1px;padding: 5px 5px;" href="">Reserve seats now</a>
 
                 </div>
                 
-                <div class="bg-yellow-400 md:w-110 md:h-120 px-20 py-10 items-center border-blue-900 border-8 ">
-                    <img class="w-100 h-100 " src="https://diwanegypt.com/wp-content/uploads/2020/08/9780449214923.jpg" alt="Image">
+                <div class="bg-yellow-400 md:w-110 md:h-120 px-20 py-10 flex border-blue-900 border-8 " style="justify-content: center; align-items: center;">
+                    <img class="w-100 h-100 " src="https://marketplace.canva.com/EAEw10IMTto/1/0/1003w/canva-pink-and-black-feminine-modern-creative-book-cover-bL5pKpYuYK8.jpg" alt="Image">
                 </div>
             </div>
+            </section>
     </div>
     <!-- footer -->
      <div class="grid md:grid-cols-4 mt-30 bg-blue-900 px-30 py-30  inset-x-0 bottom-0 gap-10">
         <div>
-          <p class="mb-10 text-xl text-white ">PINK. Publishers</p>
+          <p class="mb-10 text-xl text-white ">PINK. Books</p>
           <p class="leading-10 text-white">Cotton Hills,Mumbai<br>123-456-987<br>info@pinkpublishers.com</p>
         </div>
         <div>
@@ -111,7 +502,7 @@
         </label>
         </div>
         </div>
-     </div>
+     
 
 </body>
 </html>
