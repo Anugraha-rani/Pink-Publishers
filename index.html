@@ -7,22 +7,40 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class=" min-h-screen  py-10   ">
         <nav class="flex items-center px-10  ">
             <a class="border border-blue-900 border-2  " href=""> <span class="md:text-3xl text-xl text-white bg-blue-900 px-2   ">PINK . </span> <span class="md:text-xl text-blue-900 px-2 "> PUBLISHERS &</span><br><span class="md:text-xl text-blue-900 md:ms-28">  DISTRIBUTORS</span></a>
             <ul class="md:flex-1 text-center">
-                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="">About</a></li>
-                <li class="md:inline-block list-none" ><a  class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#book">Bookstore</a></li>
-                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#event">Events</a></li>
-                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#author">Featured Authors</a></li>
+                <li class="hidden md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="">About</a></li>
+                <li class="hidden md:inline-block list-none" ><a  class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#book">Bookstore</a></li>
+                <li class="hidden md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#author">Featured Authors</a></li>
+                <li class="hidden md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#event">Events</a></li>
                 
-                <li class="md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#deal">Today's Deal</a></li>
+                <li class="hidden md:inline-block list-none"><a class="mx-5 md:text-xl text-blue-900 hover:text-yellow-400" href="#deal">Today's Deal</a></li>
                 
             </ul>
             <a class="md:mx-5 md:text-xl text-blue-900 hover:text-yellow-400 hidden md:block" href=""><i class="fa-solid fa-circle-user"></i>Login </a>
                 <a class="md:mx-5 md:text-xl text-blue-900 hover:text-yellow-400 hidden md:block " href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+
+                <!--  -->
+                <input type="checkbox" id="menu-toggle" class="hidden peer" />
+                <label for="menu-toggle" class="md:hidden cursor-pointer ml-auto ">
+                    <i class="fa-solid fa-bars "></i>
+                </label>
+                <ul class="
+        absolute left-0 top-20 w-full bg-yellow-400
+        hidden peer-checked:block
+        md:static md:flex md:space-x-6 md:w-auto md:bg-transparent md:block
+      ">
+       <a href=""><li class="p-4 text-blue-900 md:hover:bg-transparent md:hidden text-center">About</li></a> 
+      <a href=""><li class="p-4 text-blue-900 md:hover:bg-transparent md:hidden text-center">Bookstore</li></a>  
+        <li class="p-4 text-blue-900 md:hover:bg-transparent md:hidden text-center">Featured Authors</li>
+        <li class="p-4 text-blue-900 md:hover:bg-transparent md:hidden text-center">Events</li>
+        <li class="p-4 text-blue-900 md:hover:bg-transparent md:hidden text-center">Today's Deal</li>
+      </ul>
         </nav>
         <section class="px-10">
         <div class="mt-10 md:grid grid-cols-2 bg-yellow-400 px-25 py-10 items-center " >
